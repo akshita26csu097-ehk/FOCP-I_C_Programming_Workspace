@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(void){
+  int count = 12;
+  double price = 45.75;
+  char grade = 'B';
+
+  printf("Count: %-10d\n",count);
+  printf("Price: %10.2f\n",price);
+  printf("Grade: %10c\n",grade);
+  
+  return 0;
