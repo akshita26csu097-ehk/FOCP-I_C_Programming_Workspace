@@ -9,7 +9,7 @@ int main(){
          printf("Monday\n");
          break;
     case 2:
-         ("Tuesday\n");
+         printf("Tuesday\n");
          break;
     case 3:
          printf("Wednesday\n");
