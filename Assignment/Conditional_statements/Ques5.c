@@ -6,15 +6,15 @@ char Classifier(char ch)
         return 'V';
     else if (ch >= '0' && ch <= '9')
         return 'D';
-    else if (ch>= 'a' && ch<='z')
+    else if ((ch>= 'a' && ch<='z')|| (ch>='A' && ch<='Z'))
         return 'C';
     else 
-        return 'S
-        
-        
-        
-        
-        
-        
-        '        
+        return 'S';      
+}
+
+int main(void){
+    char ch;
+    scanf(" %c" , &ch);
+    printf("%c", Classifier(ch));
+    return 0;
 }
