@@ -1,13 +1,15 @@
 #include<stdio.h>
-int SumSquareSeries(int n) {
+int SumSquareSeries(int n){
     int sum = 0;
-    for(int i = 0; i<=n; i++){
-        int sq = i*i;
-        sum = sum + sq;
-    }
-} 
-int main(){
+    for(int i; i<=n; i++){
+        int mult = i*i;
+        sum = sum + mult;
+    }    
+        return sum;
+}
+int main(void){
     int n;
     scanf("%d", &n);
-    SumSquareSeries(n);
+    printf("%d", SumSquareSeries(n));
+    return 0;
 }
